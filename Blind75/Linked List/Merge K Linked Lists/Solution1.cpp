@@ -15,6 +15,7 @@ struct ListNode {
 class Solution {
 public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {
+        // initialize the size of the 
         int n = lists.size();
         if (n == 0) {
             return NULL;
