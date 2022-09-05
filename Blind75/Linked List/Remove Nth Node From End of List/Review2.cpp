@@ -9,7 +9,7 @@ struct ListNode {
       ListNode(int x) : val(x), next(nullptr) {}
       ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
-
+// 09/05/2022
 class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
